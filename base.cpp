@@ -14,12 +14,6 @@ struct Imagen{
     int width, height, channels;
 };
 
-for (size_t i = 0; i < count; i++)
-{
-    /* code */
-}
-
-
 // Abrir imagen desde memoria local
 Imagen* load(const char* filename) {
     Imagen* img = new Imagen();
